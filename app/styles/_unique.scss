@@ -1,0 +1,155 @@
+header {
+  position: fixed;
+  top: 0;
+  background-color: darken($coral, 5%);
+  padding: 2rem 0;
+  @media #{$breakpoint-sm-up} {
+    padding: 2.4rem 0;
+  }
+  @media #{$breakpoint-md-up} {
+    padding: 2.6rem 0;
+  }
+  @media #{$breakpoint-lg-up} {
+    padding: 3rem 0;
+  }
+  .row {
+    height: inherit;
+  }
+  p {
+    color: $white;
+  }
+}
+
+footer {
+  background-color: $darkslate;
+  padding: 4.8rem 0;
+  @media #{$breakpoint-sm-up} {
+    padding: 5.4rem 0;
+  }
+  @media #{$breakpoint-md-up} {
+    padding: 6rem 0;
+  }
+  @media #{$breakpoint-lg-up} {
+    padding: 6.6rem 0;
+  }
+  aside {
+    color: $white;
+  }
+}
+
+section {
+  h1 {
+    color: $white;
+  }
+  h2 {
+    color: $white;
+  }
+  p {
+    color: $white;
+  }
+}
+
+nav {
+  ul {
+    li {
+      color: $white;
+    }
+  }
+}
+
+#intro {
+  background-color: darken($coral, 5%);
+  h1 {
+    margin: 6rem 0 3rem 0;
+    @media #{$breakpoint-sm-up} {
+      margin: 7rem 0 4rem 0;
+    }
+    @media #{$breakpoint-md-up} {
+      margin: 9rem 0 4rem 0;
+    }
+    @media #{$breakpoint-lg-up} {
+      margin: 10rem 0 4rem 0;
+    }
+  }
+}
+
+#approach {
+  background-color: $charcoal;
+  background: url(../images/intro-bg@2x.png) no-repeat 50% scroll;
+  background-size: cover;
+}
+
+#workWithUs {
+  background-color: $white;
+  h1 {
+    color: $charcoal;
+  }
+  h2 {
+    color: $charcoal;
+  }
+  p {
+    color: $charcoal;
+  }
+}
+
+#bringAnIdea {
+  position: relative;
+  background: url(../images/idea-bulb.jpg) no-repeat 50% scroll;
+  background-size: cover;
+  background-color: $charcoal;
+}
+
+#weHaveIdeas {
+  background-color: darken($gold, 7%);
+}
+
+.content-tall {
+  min-height: 100vh;
+  padding: 0 3rem 2.8rem 3rem;
+  @media #{$breakpoint-sm-up} {
+    padding: 0 4rem 3.4rem 4rem;
+  }
+  @media #{$breakpoint-md-up} {
+    padding: 0 4rem 4rem 4rem;
+  }
+  @media #{$breakpoint-lg-up} {
+    padding: 0 4.4rem 4.6rem 4.4rem;
+  }
+  &:first-of-type {
+    padding: 2.8rem 3rem;
+    @media #{$breakpoint-sm-up} {
+      padding: 3.4rem 4rem;
+    }
+    @media #{$breakpoint-md-up} {
+      padding: 4rem 4rem;
+    }
+    @media #{$breakpoint-lg-up} {
+      padding: 4.6rem 4.4rem;
+    }
+  }
+}
+
+.content {
+  padding: 0 3rem 4rem 3rem;
+  @media #{$breakpoint-sm-up} {
+    padding: 0 4rem 4rem 4rem;
+  }
+  @media #{$breakpoint-md-up} {
+    padding: 0 4rem 5rem 4rem;
+  }
+  @media #{$breakpoint-lg-up} {
+    padding: 0 4.4rem 6rem 4.4rem;
+  }
+  &:first-of-type {
+    padding: 4rem 3rem;
+    @media #{$breakpoint-sm-up} {
+      padding: 4rem 4rem;
+    }
+    @media #{$breakpoint-md-up} {
+      padding: 5rem 4rem;
+    }
+    @media #{$breakpoint-lg-up} {
+      padding: 6rem 4.4rem;
+    }
+  }
+}
