@@ -1,23 +1,10 @@
-header {
+nav {
   position: fixed;
+  // background-color: $darkslate-translucent;
   top: 0;
-  background-color: darken($coral, 5%);
-  padding: 2rem 0;
-  @media #{$breakpoint-sm-up} {
-    padding: 2.4rem 0;
-  }
-  @media #{$breakpoint-md-up} {
-    padding: 2.6rem 0;
-  }
-  @media #{$breakpoint-lg-up} {
-    padding: 3rem 0;
-  }
-  .row {
-    height: inherit;
-  }
-  p {
-    color: $white;
-  }
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 footer {
@@ -71,11 +58,8 @@ nav {
 
 #workWithUs {
   background-color: $white;
-  h1 {
-    color: $charcoal;
-  }
   h2 {
-    color: $charcoal;
+    color: $darkslate;
   }
   p {
     color: $charcoal;

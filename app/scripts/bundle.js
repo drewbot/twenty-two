@@ -7,6 +7,18 @@ var _main2 = _interopRequireDefault(_main);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+//
+// var $sections = '#intro, #approach, #workWithUs, #bringAnIdea, #weHaveIdeas';
+var $sections = '.scroll-in',
+    revealOptions = {
+  delay: 100,
+  distance: '40px',
+  scale: 0,
+  easing: 'ease-in-out'
+};
+
+window.sr = ScrollReveal().reveal($sections, revealOptions);
+
 $(function () {
   console.log('Hello ' + _main2.default.owner);
   console.log(_main2.default.isTouchDevice() ? 'Touch Device' : 'Desktop');
