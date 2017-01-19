@@ -1,3 +1,7 @@
+.position_relative {
+  position: relative;
+}
+
 nav {
   position: fixed;
   // background-color: $darkslate-translucent;
@@ -126,4 +130,13 @@ nav {
       padding: 6rem 4.4rem;
     }
   }
+}
+
+#downArrow_Intro {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: 2rem;
 }

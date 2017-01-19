@@ -11,11 +11,17 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 // var $sections = '#intro, #approach, #workWithUs, #bringAnIdea, #weHaveIdeas';
 var $sections = '.scroll-in',
     revealOptions = {
-  delay: 100,
+  delay: 75,
   distance: '40px',
   scale: 0,
   easing: 'ease-in-out'
 };
+
+$("#introHeadline").typed({
+  strings: ["Small Team,<br>Big Solutions."],
+  contentType: 'html', // or 'text'
+  showCursor: false
+});
 
 window.sr = ScrollReveal().reveal($sections, revealOptions);
 
