@@ -133,9 +133,12 @@ nav {
 }
 
 .logo {
-  font-family: $shrikhand;
-  color: $white;
-  font-size: 3em;
+  img {
+    width: 200px;
+    @media #{$breakpoint-sm-up} {
+      width: auto;
+    }
+  }
 }
 
 #downArrow_Intro {
